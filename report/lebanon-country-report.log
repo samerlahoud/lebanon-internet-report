@@ -1,0 +1,225 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.22)  5 JUL 2020 19:17
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/simurgh/Desktop/lebanon-country-report/report/lebanon-country-report.tex
+(/Users/simurgh/Desktop/lebanon-country-report/report/lebanon-country-report.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/opensans/opensans.sty
+Package: opensans 2019/06/20 Style file for Open Sans.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2014/03/23 v1.0d Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+)
+\XKV@depth=\count175
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+opensans-TOsF on input line 112.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/opensans/T1opensans-TOsF.fd
+File: T1opensans-TOsF.fd 2019/06/24 Font definitions for T1/opensans-TOsF.
+)
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 112.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count176
+\l__pdf_internal_box=\box45
+) (/Users/simurgh/Desktop/lebanon-country-report/report/lebanon-country-report.aux)
+\openout1 = `lebanon-country-report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+ (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count177
+\scratchdimen=\dimen137
+\scratchbox=\box46
+\nofMPsegments=\count178
+\nofMParguments=\count179
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count180
+\MPscratchDim=\dimen138
+\MPnumerator=\count181
+\makeMPintoPDFobject=\count182
+\everyMPtoPDFconversion=\toks19
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\c@mv@tabular=\count183
+\c@mv@boldtabular=\count184
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 16.41594pt on input line 23.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 23.
+
+Overfull \hbox (38.63141pt too wide) in paragraph at lines 23--23
+ [][] 
+ []
+
+[1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 25.
+ [1]
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 29.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 29.
+<../output/internet-users.pdf, id=11, 436.81131pt x 298.29831pt>
+File: ../output/internet-users.pdf Graphic file (type pdf)
+<use ../output/internet-users.pdf>
+Package pdftex.def Info: ../output/internet-users.pdf  used on input line 47.
+(pdftex.def)             Requested size: 276.00105pt x 188.49332pt.
+ [1]
+<../output/population-internet-lbn.pdf, id=15, 412.81226pt x 298.29831pt>
+File: ../output/population-internet-lbn.pdf Graphic file (type pdf)
+<use ../output/population-internet-lbn.pdf>
+Package pdftex.def Info: ../output/population-internet-lbn.pdf  used on input line 53.
+(pdftex.def)             Requested size: 276.00105pt x 199.44916pt.
+<../output/aggregate-lbs-users.pdf, id=16, 412.81226pt x 317.93417pt>
+File: ../output/aggregate-lbs-users.pdf Graphic file (type pdf)
+<use ../output/aggregate-lbs-users.pdf>
+Package pdftex.def Info: ../output/aggregate-lbs-users.pdf  used on input line 59.
+(pdftex.def)             Requested size: 276.00105pt x 212.57817pt.
+<../output/as-stat.pdf, id=17, 411.73009pt x 305.15204pt>
+File: ../output/as-stat.pdf Graphic file (type pdf)
+<use ../output/as-stat.pdf>
+Package pdftex.def Info: ../output/as-stat.pdf  used on input line 65.
+(pdftex.def)             Requested size: 276.00105pt x 204.55788pt.
+<../output/prefix-v4.pdf, id=18, 425.57869pt x 305.15204pt>
+File: ../output/prefix-v4.pdf Graphic file (type pdf)
+<use ../output/prefix-v4.pdf>
+Package pdftex.def Info: ../output/prefix-v4.pdf  used on input line 71.
+(pdftex.def)             Requested size: 276.00105pt x 197.90411pt.
+<../output/prefix-v6.pdf, id=19, 412.81226pt x 305.15204pt>
+File: ../output/prefix-v6.pdf Graphic file (type pdf)
+<use ../output/prefix-v6.pdf>
+Package pdftex.def Info: ../output/prefix-v6.pdf  used on input line 77.
+(pdftex.def)             Requested size: 276.00105pt x 204.03172pt.
+<../output/ips-v4.pdf, id=20, 422.96269pt x 305.15204pt>
+File: ../output/ips-v4.pdf Graphic file (type pdf)
+<use ../output/ips-v4.pdf>
+Package pdftex.def Info: ../output/ips-v4.pdf  used on input line 83.
+(pdftex.def)             Requested size: 276.00105pt x 199.13336pt.
+<../output/48s-v6.pdf, id=21, 444.982pt x 305.15204pt>
+File: ../output/48s-v6.pdf Graphic file (type pdf)
+<use ../output/48s-v6.pdf>
+Package pdftex.def Info: ../output/48s-v6.pdf  used on input line 89.
+(pdftex.def)             Requested size: 276.00105pt x 189.27611pt.
+ [2 </Users/simurgh/Desktop/lebanon-country-report/report/../output/internet-users.pdf>] [3 </Users/simurgh/Desktop/lebanon-country-report/report/../output/population-internet-lbn.pdf> </Users/simurgh/Desktop/lebanon-country-report/report/../output/aggregate-lbs-users.pdf
+
+pdfTeX warning: pdflatex (file /Users/simurgh/Desktop/lebanon-country-report/report/../output/aggregate-lbs-users.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [4 </Users/simurgh/Desktop/lebanon-country-report/report/../output/as-stat.pdf> </Users/simurgh/Desktop/lebanon-country-report/report/../output/prefix-v4.pdf
+
+pdfTeX warning: pdflatex (file /Users/simurgh/Desktop/lebanon-country-report/report/../output/prefix-v4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [5 </Users/simurgh/Desktop/lebanon-country-report/report/../output/prefix-v6.pdf> </Users/simurgh/Desktop/lebanon-country-report/report/../output/ips-v4.pdf
+
+pdfTeX warning: pdflatex (file /Users/simurgh/Desktop/lebanon-country-report/report/../output/ips-v4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [6 </Users/simurgh/Desktop/lebanon-country-report/report/../output/48s-v6.pdf>] (/Users/simurgh/Desktop/lebanon-country-report/report/lebanon-country-report.aux) ) 
+Here is how much of TeX's memory you used:
+ 2095 strings out of 480608
+ 32984 string characters out of 5903630
+ 264930 words of memory out of 5000000
+ 17969 multiletter control sequences out of 15000+600000
+ 539536 words of font info for 44 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,10n,45p,574b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/opensans/a_p2vepx.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb>
+Output written on /Users/simurgh/Desktop/lebanon-country-report/report/lebanon-country-report.pdf (8 pages, 137050 bytes).
+PDF statistics:
+ 419 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+

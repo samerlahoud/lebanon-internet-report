@@ -1,0 +1,1 @@
+https://resources.potaroo.net/iso3166/ascc.html are inaccurate for IPv6 in Lebanon
