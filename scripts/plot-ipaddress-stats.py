@@ -1,11 +1,13 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set()
 
 plt.rcParams['font.family'] = 'sans'
 plt.rcParams['font.serif'] = 'Open Sans'
 
 base_folder = '../data/'
-selected_countries = ['AE','BH','EG','IQ','IR','JO','KW','LB','OM','PS','QA','SA','SY','TR','YE']
+selected_countries = ['AE','BH','IQ','IR','JO','KW','LB','OM','PS','QA','SA','SY','TR','YE']
 
 global_as_stats_df = pd.read_csv(base_folder+'country-as-stats.csv', sep=',',index_col=0)
 global_as_stats_df.sort_index(inplace=True)

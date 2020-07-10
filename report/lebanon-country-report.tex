@@ -1,8 +1,11 @@
 \documentclass[a4paper,titlepage]{article}
 \usepackage{graphicx}
+\usepackage{subcaption}
 \usepackage[default,oldstyle,scale=0.95]{opensans} %% Alternatively
 %% use the option 'defaultsans' instead of 'default' to replace the
 %% sans serif font only.
+\usepackage[margin=1in]{geometry}
+
 \usepackage[T1]{fontenc}
 \usepackage{setspace}
 \usepackage{fancyhdr}
@@ -10,11 +13,16 @@
 \pagestyle{fancyplain}
 \fancyhf{} % sets both header and footer to nothing
 \renewcommand{\headrulewidth}{0pt}
-\fancyfoot[L]{ESIB 2020}
+\fancyfoot[L]{Lebanon Internet Report - 2020}
 \fancyfoot[R]{\thepage}
+\usepackage{xcolor,sectsty}
+
+\definecolor{astral}{RGB}{46,116,181}
+\subsectionfont{\color{astral}}
+\sectionfont{\color{astral}}
 
 %opening
-\title{Lebanon Country Report}
+\title{\color{astral}\Huge \bfseries Lebanon Internet Report}
 \author{Maria Achkouty, Melissa Hussein, Youmna Bahout, and Samer Lahoud}
 
 \onehalfspacing
@@ -44,50 +52,61 @@ In 2017, Lebanon’s penetration rate reached 78% which gives room for future gr
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\linewidth]{../output/internet-users.pdf}
+    \includegraphics[width=0.75\linewidth]{../output/internet-users.pdf}
     \caption{test}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\linewidth]{../output/population-internet-lbn.pdf}
+    \includegraphics[width=0.75\linewidth]{../output/population-internet-lbn.pdf}
     \caption{test}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\linewidth]{../output/aggregate-lbs-users.pdf}
+    \includegraphics[width=0.75\linewidth]{../output/aggregate-lbs-users.pdf}
     \caption{test}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\linewidth]{../output/as-stat.pdf}
+    \includegraphics[width=0.75\linewidth]{../output/as-stat.pdf}
+    \caption{test}
+\end{figure}
+
+% \begin{figure}
+%     \centering
+%     \includegraphics[width=0.75\linewidth]{../output/prefix-v4.pdf}
+%     \caption{test}
+% \end{figure}
+
+% \begin{figure}
+%     \centering
+%     \includegraphics[width=0.75\linewidth]{../output/prefix-v6.pdf}
+%     \caption{test}
+% \end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{../output/ips-v4.pdf}
     \caption{test}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\linewidth]{../output/prefix-v4.pdf}
+    \includegraphics[width=0.75\linewidth]{../output/48s-v6.pdf}
     \caption{test}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\linewidth]{../output/prefix-v6.pdf}
-    \caption{test}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.8\linewidth]{../output/ips-v4.pdf}
-    \caption{test}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.8\linewidth]{../output/48s-v6.pdf}
-    \caption{test}
+    \subcaptionbox{Frequency bands.\label{fig:perc-band-evo}}
+    {\includegraphics[width=0.45\linewidth]{../output/prefix-v4.pdf}}
+    \subcaptionbox{Mobile technologies.\label{fig:perc-techno-evo}}
+    {\includegraphics[width=0.45\linewidth]{../output/prefix-v6.pdf}}
+    \caption{Evolution of the spectrum utilization in the city of Rennes in France.
+    \label{fig:perc-antenna-evo}
+    }
 \end{figure}
 
 \end{document}

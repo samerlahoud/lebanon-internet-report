@@ -1,12 +1,14 @@
-# data from https://databank.worldbank.org/reports.aspx?source=2&series=IT.NET.USER.ZS&country=LBN,BHR,YEM,IRQ,JOR,OMN,ARE,SAU,QAT,EGY,IRN,KWT,SYR,TUR,MEA
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set()
 
 plt.rcParams['font.family'] = 'sans'
 plt.rcParams['font.serif'] = 'Open Sans'
 #plt.rcParams['axes.labelsize'] = 14
 #plt.rcParams.update({'font.size': 12})
 
+# data from https://databank.worldbank.org/
 base_folder = '../data/Data_Extract_From_World_Development_Indicators/'
 #selected_countries = ['YEM','SYR','MEA','LBN','QAT','KWT']
 selected_countries = ['LBN','MEA','QAT','YEM']
