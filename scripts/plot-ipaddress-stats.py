@@ -45,8 +45,8 @@ plt.savefig('../output/prefix-v6.pdf', format='pdf', bbox_inches='tight')
 plt.figure()
 ax = global_ip_stats_df['ips_v4'].plot.bar()
 
-for p in ax.patches:
-    ax.annotate(str(p.get_height()), (p.get_x() * 1.005, p.get_height() * 1.005))
+# for p in ax.patches:
+#     ax.annotate(str(p.get_height()), (p.get_x() * 1.005, p.get_height() * 1.005))
 
 plt.yscale('log')
 plt.ylabel('Total amount of announced IPv6 address space \n(in terms of unique /48 subnets)')
