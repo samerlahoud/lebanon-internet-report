@@ -8,8 +8,9 @@ from datetime import date, timedelta
 
 api_url_base = 'https://stat.ripe.net/data/'
 
-def get_country_asn(country_code):
-    api_url = '{}country-asns/data.json?resource={}&lod=1'.format(api_url_base, country_code)
+def get_country_asn(country_code, timestamp):
+    # Results not available before 2015
+    api_url = '{}country-asns/data.json?resource={}&query_time={}&lod=1'.format(api_url_base, country_code, timestamp)
     response = requests.get(api_url)
     if response.status_code == 200:
         country_asn_json = json.loads(response.content.decode('utf-8'))
@@ -38,7 +39,7 @@ def get_detailed_country_stats(country_code):
     asn_results = {}
     current_time = date.today()+timedelta(hours=-2)
     timestamp = current_time.strftime("%Y-%m-%dT12:00")
-    country_asn_list, country_asn_stats = get_country_asn(country_code)
+    country_asn_list, country_asn_stats = get_country_asn(country_code, timestamp)
     for asn in country_asn_list:
         temp_result = get_asn_prefix(asn, timestamp)
         if(temp_result):
@@ -48,8 +49,10 @@ def get_detailed_country_stats(country_code):
 
 def get_global_stats(country_list):
     country_results = {}
+    current_time = date.today()+timedelta(hours=-2)
+    timestamp = current_time.strftime("%Y-%m-%dT12:00")
     for country_code in selected_countries:
-        country_asn_list, country_asn_stats = get_country_asn(country_code)
+        country_asn_list, country_asn_stats = get_country_asn(country_code, timestamp)
         country_results[country_code] = [country_asn_stats['registered'],country_asn_stats['routed']]
     country_results_df=pd.DataFrame.from_dict(country_results,orient='index',columns=['registered_as','routed_as'])
     country_results_df.to_csv('../data/country-as-stats.csv')
@@ -71,12 +74,15 @@ def get_aggregate_country_stats(cc):
         return None
 
 def get_detailed_evolution_country_stats(country_code):
-    country_asn_list, country_asn_stats = get_country_asn(country_code)
-    back_years = 10
+    # country asn list is not available before 2015
+    back_years = 5
     for time_leap in range(back_years,-1,-1):
         asn_results = {}
         timestamp = date.today()+timedelta(days=-time_leap*365)
         timestr = timestamp.strftime("%Y-%m-%dT12:00")
+        # For old results before 2015 asn list will be oldest available one
+        # for example 2010 results give the prefixes in 2010 for asn list of 2015
+        country_asn_list, country_asn_stats = get_country_asn(country_code, timestamp)
         for asn in country_asn_list:
             temp_result = get_asn_prefix(asn,timestr)
             if(temp_result):

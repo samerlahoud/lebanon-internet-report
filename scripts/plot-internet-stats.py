@@ -56,16 +56,22 @@ subset_bbnd_fixed_users_df = bbnd_fixed_users_df[selected_countries]
 
 plt.figure()
 subset_internet_users_df.plot.line(marker='o')
+left, right = plt.xlim()
+plt.xlim(left-1, right+1)
 plt.ylabel("Individuals using the Internet \n(% of population)")
 plt.savefig('../output/internet-users.pdf', format='pdf', bbox_inches='tight')
 
 plt.figure()
 subset_mobile_users_df.plot.line(marker='o')
+left, right = plt.xlim()
+plt.xlim(left-1, right+1)
 plt.ylabel("Mobile cellular subscriptions \n(per 100 people)")
 plt.savefig('../output/mobile-users.pdf', format='pdf', bbox_inches='tight')
 
 plt.figure()
 subset_bbnd_fixed_users_df.plot.line(marker='o')
+left, right = plt.xlim()
+plt.xlim(left-1, right+1)
 plt.ylabel("Fixed broadband subscriptions \n(per 100 people)")
 plt.savefig('../output/fixed-bbnd-users.pdf', format='pdf', bbox_inches='tight')
 
@@ -75,6 +81,8 @@ plt.figure()
 abs_internet_users_lbn.plot.line(marker='o')
 plt.legend(["Individuals using the Internet"])
 total_population_lbn.plot.area(alpha=0.1)
+left, right = plt.xlim()
+plt.xlim(left-1, right+1)
 plt.ylabel("Total population (millions)")
 plt.savefig('../output/population-internet-lbn.pdf', format='pdf', bbox_inches='tight')
 
