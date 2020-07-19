@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.22)  10 JUL 2020 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.22)  19 JUL 2020 12:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -256,52 +256,52 @@ LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 37.
 LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 37.
-<../output/internet-users.pdf, id=11, 441.43169pt x 301.19977pt>
+<../output/internet-users.pdf, id=11, 429.13574pt x 301.19977pt>
 File: ../output/internet-users.pdf Graphic file (type pdf)
 <use ../output/internet-users.pdf>
-Package pdftex.def Info: ../output/internet-users.pdf  used on input line 55.
-(pdftex.def)             Requested size: 339.72592pt x 231.81424pt.
-<../output/population-internet-lbn.pdf, id=12, 416.21559pt x 301.19977pt>
+Package pdftex.def Info: ../output/internet-users.pdf  used on input line 56.
+(pdftex.def)             Requested size: 339.72592pt x 238.44617pt.
+<../output/population-internet-lbn.pdf, id=12, 403.91965pt x 301.19977pt>
 File: ../output/population-internet-lbn.pdf Graphic file (type pdf)
 <use ../output/population-internet-lbn.pdf>
-Package pdftex.def Info: ../output/population-internet-lbn.pdf  used on input line 61.
-(pdftex.def)             Requested size: 339.72592pt x 245.8594pt.
+Package pdftex.def Info: ../output/population-internet-lbn.pdf  used on input line 62.
+(pdftex.def)             Requested size: 339.72592pt x 253.33699pt.
 <../output/aggregate-lbs-users.pdf, id=13, 416.21559pt x 319.64368pt>
 File: ../output/aggregate-lbs-users.pdf Graphic file (type pdf)
 <use ../output/aggregate-lbs-users.pdf>
-Package pdftex.def Info: ../output/aggregate-lbs-users.pdf  used on input line 67.
+Package pdftex.def Info: ../output/aggregate-lbs-users.pdf  used on input line 68.
 (pdftex.def)             Requested size: 339.72592pt x 260.91455pt.
 <../output/as-stat.pdf, id=14, 415.83919pt x 308.90042pt>
 File: ../output/as-stat.pdf Graphic file (type pdf)
 <use ../output/as-stat.pdf>
-Package pdftex.def Info: ../output/as-stat.pdf  used on input line 73.
+Package pdftex.def Info: ../output/as-stat.pdf  used on input line 74.
 (pdftex.def)             Requested size: 339.72592pt x 252.37614pt.
 <../output/ips-v4.pdf, id=15, 428.75934pt x 308.90042pt>
 File: ../output/ips-v4.pdf Graphic file (type pdf)
 <use ../output/ips-v4.pdf>
-Package pdftex.def Info: ../output/ips-v4.pdf  used on input line 91.
+Package pdftex.def Info: ../output/ips-v4.pdf  used on input line 92.
 (pdftex.def)             Requested size: 339.72592pt x 244.75923pt.
 <../output/48s-v6.pdf, id=16, 428.75934pt x 308.90042pt>
 File: ../output/48s-v6.pdf Graphic file (type pdf)
 <use ../output/48s-v6.pdf>
-Package pdftex.def Info: ../output/48s-v6.pdf  used on input line 97.
+Package pdftex.def Info: ../output/48s-v6.pdf  used on input line 98.
 (pdftex.def)             Requested size: 339.72592pt x 244.75923pt.
 <../output/lir.pdf, id=17, 415.93329pt x 308.90042pt>
 File: ../output/lir.pdf Graphic file (type pdf)
 <use ../output/lir.pdf>
-Package pdftex.def Info: ../output/lir.pdf  used on input line 103.
+Package pdftex.def Info: ../output/lir.pdf  used on input line 104.
 (pdftex.def)             Requested size: 339.72592pt x 252.31487pt.
 <../output/prefix-v4.pdf, id=18, 428.37038pt x 308.90042pt>
 File: ../output/prefix-v4.pdf Graphic file (type pdf)
 <use ../output/prefix-v4.pdf>
-Package pdftex.def Info: ../output/prefix-v4.pdf  used on input line 110.
+Package pdftex.def Info: ../output/prefix-v4.pdf  used on input line 111.
 (pdftex.def)             Requested size: 203.83417pt x 146.98845pt.
 LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 110.
+(Font)              scaled to size 8.54997pt on input line 111.
 <../output/prefix-v6.pdf, id=19, 416.07443pt x 308.90042pt>
 File: ../output/prefix-v6.pdf Graphic file (type pdf)
 <use ../output/prefix-v6.pdf>
-Package pdftex.def Info: ../output/prefix-v6.pdf  used on input line 112.
+Package pdftex.def Info: ../output/prefix-v6.pdf  used on input line 113.
 (pdftex.def)             Requested size: 203.83417pt x 151.32953pt.
  [1] [2 </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/internet-users.pdf> </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/population-internet-lbn.pdf
 
@@ -322,15 +322,15 @@ pdfTeX warning: pdflatex (file /Users/simurgh/Documents/CIMTI-IRISA/Simulations/
 Here is how much of TeX's memory you used:
  4311 strings out of 480608
  68431 string characters out of 5903630
- 312885 words of memory out of 5000000
+ 313885 words of memory out of 5000000
  20158 multiletter control sequences out of 15000+600000
  541173 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,11n,84p,616b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/opensans/a_p2vepx.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb>
-Output written on /Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/lebanon-country-report.pdf (7 pages, 156529 bytes).
+Output written on /Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/lebanon-country-report.pdf (7 pages, 159905 bytes).
 PDF statistics:
- 448 PDF objects out of 1000 (max. 8388607)
+ 452 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)

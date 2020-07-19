@@ -10,10 +10,18 @@ plt.rcParams['font.serif'] = 'Open Sans'
 
 # data from https://databank.worldbank.org/
 base_folder = '../data/Data_Extract_From_World_Development_Indicators/'
-#selected_countries = ['YEM','SYR','MEA','LBN','QAT','KWT']
-selected_countries = ['LBN','MEA','QAT','YEM']
+countries_3cc=['ARE', 'BHR', 'EGY', 'IRQ', 'IRN', 'JOR', 'KWT', 'LBN', 'OMN', 'PSE', 'QAT', 'SAU', 'SYR', 'TUR', 'YEM', 'MEA']
+countries_2cc = ['AE','BH','EG','IQ','IR','JO','KW','LB','OM','PS','QA','SA','SY','TR','YE','ME']
 
 stat_df = pd.read_csv(base_folder+'42da6ae7-a256-443d-ab20-466f2cbbba13_Data.csv', sep=',', index_col='Country Code')
+stat_df['CC'] = stat_df.index
+stat_df.replace(countries_3cc, countries_2cc, inplace=True)
+stat_df.set_index('CC', inplace=True)
+stat_df.index.name = 'Country Code'
+
+me_countries=['AE', 'BH', 'IQ', 'IR', 'JO', 'KW', 'LB', 'OM', 'PS', 'QA', 'SA', 'SY', 'TR', 'YE']
+top_countries = ['LB','ME','QA','YE','TR','SY']
+selected_countries = top_countries 
 
 total_population_df = stat_df.loc[stat_df['Series Code'] == 'SP.POP.TOTL']
 internet_users_df = stat_df.loc[stat_df['Series Code'] == 'IT.NET.USER.ZS']
@@ -55,9 +63,14 @@ bbnd_fixed_users_df = bbnd_fixed_users_df.astype('float64')
 subset_bbnd_fixed_users_df = bbnd_fixed_users_df[selected_countries]
 
 plt.figure()
-subset_internet_users_df.plot.line(marker='o')
+ax = subset_internet_users_df.plot.line(marker='o')
 left, right = plt.xlim()
 plt.xlim(left-1, right+1)
+for col in subset_internet_users_df.columns:
+    start_val = subset_internet_users_df[col].values[0]
+    end_val = subset_internet_users_df[col].values[-1]
+    #ax.text(0, start_val, str(format(start_val, '.1f')))
+    ax.text(len(subset_internet_users_df[col])-1, end_val, str(format(end_val, '.1f')))
 plt.ylabel("Individuals using the Internet \n(% of population)")
 plt.savefig('../output/internet-users.pdf', format='pdf', bbox_inches='tight')
 
@@ -75,8 +88,8 @@ plt.xlim(left-1, right+1)
 plt.ylabel("Fixed broadband subscriptions \n(per 100 people)")
 plt.savefig('../output/fixed-bbnd-users.pdf', format='pdf', bbox_inches='tight')
 
-abs_internet_users_lbn = subset_internet_users_df["LBN"]/100 * subset_total_population_df["LBN"]/1e6
-total_population_lbn = subset_total_population_df["LBN"]/1e6
+abs_internet_users_lbn = subset_internet_users_df["LB"]/100 * subset_total_population_df["LB"]/1e6
+total_population_lbn = subset_total_population_df["LB"]/1e6
 plt.figure()
 abs_internet_users_lbn.plot.line(marker='o')
 plt.legend(["Individuals using the Internet"])
@@ -86,7 +99,7 @@ plt.xlim(left-1, right+1)
 plt.ylabel("Total population (millions)")
 plt.savefig('../output/population-internet-lbn.pdf', format='pdf', bbox_inches='tight')
 
-aggregate_lbn_users = pd.DataFrame({"Fixed broadband subscriptions":subset_bbnd_fixed_users_df["LBN"],"Mobile cellular subscriptions":subset_mobile_users_df["LBN"]})
+aggregate_lbn_users = pd.DataFrame({"Fixed broadband subscriptions":subset_bbnd_fixed_users_df["LB"],"Mobile cellular subscriptions":subset_mobile_users_df["LB"]})
 plt.figure()
 aggregate_lbn_users.plot.bar()
 plt.ylim(0, 100) 
