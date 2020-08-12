@@ -20,8 +20,9 @@ stat_df.set_index('CC', inplace=True)
 stat_df.index.name = 'Country Code'
 
 me_countries=['AE', 'BH', 'IQ', 'IR', 'JO', 'KW', 'LB', 'OM', 'PS', 'QA', 'SA', 'SY', 'TR', 'YE']
-top_countries = ['LB','ME','QA','YE','TR','SY']
-selected_countries = top_countries 
+top_tail_countries = ['LB','QA','TR','SY']
+top_countries=['AE', 'BH', 'IR', 'JO', 'KW', 'LB', 'OM', 'PS', 'QA', 'SA', 'TR']
+selected_countries = top_tail_countries 
 
 total_population_df = stat_df.loc[stat_df['Series Code'] == 'SP.POP.TOTL']
 internet_users_df = stat_df.loc[stat_df['Series Code'] == 'IT.NET.USER.ZS']
@@ -70,9 +71,17 @@ for col in subset_internet_users_df.columns:
     start_val = subset_internet_users_df[col].values[0]
     end_val = subset_internet_users_df[col].values[-1]
     #ax.text(0, start_val, str(format(start_val, '.1f')))
-    ax.text(len(subset_internet_users_df[col])-1, end_val, str(format(end_val, '.1f')))
+    ax.text(len(subset_internet_users_df[col])-1, end_val, str(format(end_val, '.1f')), verticalalignment='bottom')
 plt.ylabel("Individuals using the Internet \n(% of population)")
 plt.savefig('../output/internet-users.pdf', format='pdf', bbox_inches='tight')
+
+plt.figure()
+ax = internet_users_df[me_countries].loc['2017'].plot.bar()
+for p in ax.patches: 
+    ax.annotate(str(format(p.get_height(), '.0f')), (p.get_x(), p.get_height() * 1.01))
+plt.ylabel("Individuals using the Internet \n(% of population)")
+plt.xlabel("")
+plt.savefig('../output/internet-users-2017.pdf', format='pdf', bbox_inches='tight')
 
 plt.figure()
 subset_mobile_users_df.plot.line(marker='o')
@@ -91,11 +100,18 @@ plt.savefig('../output/fixed-bbnd-users.pdf', format='pdf', bbox_inches='tight')
 abs_internet_users_lbn = subset_internet_users_df["LB"]/100 * subset_total_population_df["LB"]/1e6
 total_population_lbn = subset_total_population_df["LB"]/1e6
 plt.figure()
-abs_internet_users_lbn.plot.line(marker='o')
+ax1 = abs_internet_users_lbn.plot.line(marker='o')
 plt.legend(["Individuals using the Internet"])
-total_population_lbn.plot.area(alpha=0.1)
+ax2 = total_population_lbn.plot.area(alpha=0.1)
 left, right = plt.xlim()
 plt.xlim(left-1, right+1)
+
+ax1.text(0, abs_internet_users_lbn[0], str(format(abs_internet_users_lbn[0], '.1f')), horizontalalignment='right', verticalalignment='bottom')
+ax1.text(len(abs_internet_users_lbn)-1, abs_internet_users_lbn[-1], str(format(abs_internet_users_lbn[-1], '.1f')), verticalalignment='bottom')
+
+ax2.text(0, total_population_lbn[0], str(format(total_population_lbn[0], '.1f')), horizontalalignment='right', verticalalignment='bottom')
+ax2.text(len(total_population_lbn)-1, total_population_lbn[-1], str(format(total_population_lbn[-1], '.1f')), verticalalignment='bottom')
+
 plt.ylabel("Total population (millions)")
 plt.savefig('../output/population-internet-lbn.pdf', format='pdf', bbox_inches='tight')
 

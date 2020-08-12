@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.22)  19 JUL 2020 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.22)  3 AUG 2020 02:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -106,6 +106,239 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen150
 \Gm@layoutvoffset=\dimen151
 \Gm@dimlist=\toks18
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen152
+\ar@mcellbox=\box45
+\extrarowheight=\dimen153
+\NC@list=\toks19
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box46
+)
+\everycr=\toks20
+\minrowclearance=\skip51
+)
+\rownum=\count183
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/awesomebox/awesomebox.sty
+Package: awesomebox 2019/07/27 v0.6
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-03-06 L3 programming layer (loader) 
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count184
+\l__pdf_internal_box=\box47
+))
+Package: fontawesome5 2020/03/24 v5.13.0 Font Awesome 5
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count185
+\g__xparse_grabber_int=\count186
+\l__xparse_m_args_int=\count187
+\l__xparse_v_nesting_int=\count188
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
+Package: fontawesome5-generic-helper 2020/03/24 v5.13.0 non-uTeX helper for fontawesome5
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def)))
+\aweboxleftmargin=\skip52
+\aweboxcontentwidth=\skip53
+\aweboxvskip=\skip54
+\aweboxsignraise=\skip55
+\aweboxrulewidth=\skip56
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\aweboxlinewidthvar=\skip57
+\aweboxlinewidthref=\skip58
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2019/11/15 version 4.22 text color boxes
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen154
+\pgfutil@tempdimb=\dimen155
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box48
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks24
+))
+\pgf@x=\dimen156
+\pgf@y=\dimen157
+\pgf@xa=\dimen158
+\pgf@ya=\dimen159
+\pgf@xb=\dimen160
+\pgf@yb=\dimen161
+\pgf@xc=\dimen162
+\pgf@yc=\dimen163
+\pgf@xd=\dimen164
+\pgf@yd=\dimen165
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count189
+\c@pgf@countb=\count190
+\c@pgf@countc=\count191
+\c@pgf@countd=\count192
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count193
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count194
+\pgfsyssoftpath@bigbuffer@items=\count195
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen166
+\pgfmath@count=\count196
+\pgfmath@box=\box49
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count197
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen167
+\pgf@picmaxx=\dimen168
+\pgf@picminy=\dimen169
+\pgf@picmaxy=\dimen170
+\pgf@pathminx=\dimen171
+\pgf@pathmaxx=\dimen172
+\pgf@pathminy=\dimen173
+\pgf@pathmaxy=\dimen174
+\pgf@xx=\dimen175
+\pgf@xy=\dimen176
+\pgf@yx=\dimen177
+\pgf@yy=\dimen178
+\pgf@zx=\dimen179
+\pgf@zy=\dimen180
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen181
+\pgf@path@lasty=\dimen182
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen183
+\pgf@shorten@start@additional=\dimen184
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box50
+\pgf@hbox=\box51
+\pgf@layerbox@main=\box52
+\pgf@picture@serial@count=\count198
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen185
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen186
+\pgf@pt@y=\dimen187
+\pgf@pt@temp=\dimen188
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen189
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen190
+\pgf@sys@shading@range@num=\count199
+\pgf@shadingcount=\count266
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box53
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box54
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen191
+\pgf@nodesepend=\dimen192
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks31
+\verbatim@line=\toks32
+\verbatim@in@stream=\read3
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks33
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count267
+)
+\tcb@titlebox=\box55
+\tcb@upperbox=\box56
+\tcb@lowerbox=\box57
+\tcb@phantombox=\box58
+\c@tcbbreakpart=\count268
+\c@tcblayer=\count269
+\tcolorbox@number=\count270
+\tcb@temp=\box59
+\tcb@temp=\box60
+\tcb@temp=\box61
+\tcb@temp=\box62
+\tcb@out=\write4
+\tcb@record@out=\write5
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+opensans-TOsF on input line 112.
@@ -118,30 +351,15 @@ LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
-\f@nch@headwidth=\skip49
-\f@nch@O@elh=\skip50
-\f@nch@O@erh=\skip51
-\f@nch@O@olh=\skip52
-\f@nch@O@orh=\skip53
-\f@nch@O@elf=\skip54
-\f@nch@O@erf=\skip55
-\f@nch@O@olf=\skip56
-\f@nch@O@orf=\skip57
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+\f@nch@headwidth=\skip59
+\f@nch@O@elh=\skip60
+\f@nch@O@erh=\skip61
+\f@nch@O@olh=\skip62
+\f@nch@O@orh=\skip63
+\f@nch@O@elf=\skip64
+\f@nch@O@erf=\skip65
+\f@nch@O@olf=\skip66
+\f@nch@O@orf=\skip67
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
 
@@ -153,40 +371,36 @@ LaTeX Warning: Command \underbar  has changed.
 LaTeX Warning: Command \underline  has changed.
                Check if current package is valid.
 
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count183
-\l__pdf_internal_box=\box45
 ) (/Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/lebanon-country-report.aux)
 \openout1 = `lebanon-country-report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
  (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count184
-\scratchdimen=\dimen152
-\scratchbox=\box46
-\nofMPsegments=\count185
-\nofMParguments=\count186
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count187
-\MPscratchDim=\dimen153
-\MPnumerator=\count188
-\makeMPintoPDFobject=\count189
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count271
+\scratchdimen=\dimen193
+\scratchbox=\box63
+\nofMPsegments=\count272
+\nofMParguments=\count273
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count274
+\MPscratchDim=\dimen194
+\MPnumerator=\count275
+\makeMPintoPDFobject=\count276
+\everyMPtoPDFconversion=\toks35
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -195,8 +409,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\c@mv@tabular=\count190
-\c@mv@boldtabular=\count191
+\c@mv@tabular=\count277
+\c@mv@boldtabular=\count278
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -232,87 +446,111 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 31.
+(Font)              scaled to size 16.41594pt on input line 34.
 LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 31.
+(Font)              scaled to size 23.63593pt on input line 34.
 LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 31.
+(Font)              scaled to size 23.63593pt on input line 34.
 LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 31.
+(Font)              scaled to size 11.39996pt on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 31.
+(Font)              <12> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 31.
+(Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 31.
-[1
+(Font)              <6> on input line 34.
+ [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 33.
+(Font)              scaled to size 9.49997pt on input line 36.
  [1]
 LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 37.
+(Font)              scaled to size 13.67995pt on input line 40.
 LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 37.
-<../output/internet-users.pdf, id=11, 429.13574pt x 301.19977pt>
+(Font)              scaled to size 13.67995pt on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 54.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 54.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 81.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 81.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 81.
+ [1]
+LaTeX Font Info:    Trying to load font information for TS1+opensans-TOsF on input line 87.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/opensans/TS1opensans-TOsF.fd
+File: TS1opensans-TOsF.fd 2019/06/24 Font definitions for TS1/opensans-TOsF.
+)
+LaTeX Font Info:    Font shape `TS1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 87.
+<../output/internet-users-2017.pdf, id=17, 429.13574pt x 308.90042pt>
+File: ../output/internet-users-2017.pdf Graphic file (type pdf)
+<use ../output/internet-users-2017.pdf>
+Package pdftex.def Info: ../output/internet-users-2017.pdf  used on input line 94.
+(pdftex.def)             Requested size: 339.72592pt x 244.54242pt.
+<../output/internet-users.pdf, id=18, 429.13574pt x 301.19977pt>
 File: ../output/internet-users.pdf Graphic file (type pdf)
 <use ../output/internet-users.pdf>
-Package pdftex.def Info: ../output/internet-users.pdf  used on input line 56.
+Package pdftex.def Info: ../output/internet-users.pdf  used on input line 101.
 (pdftex.def)             Requested size: 339.72592pt x 238.44617pt.
-<../output/population-internet-lbn.pdf, id=12, 403.91965pt x 301.19977pt>
+ [2 </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/internet-users-2017.pdf>]
+<../output/population-internet-lbn.pdf, id=76, 403.91965pt x 301.19977pt>
 File: ../output/population-internet-lbn.pdf Graphic file (type pdf)
 <use ../output/population-internet-lbn.pdf>
-Package pdftex.def Info: ../output/population-internet-lbn.pdf  used on input line 62.
+Package pdftex.def Info: ../output/population-internet-lbn.pdf  used on input line 112.
 (pdftex.def)             Requested size: 339.72592pt x 253.33699pt.
-<../output/aggregate-lbs-users.pdf, id=13, 416.21559pt x 319.64368pt>
+<../output/aggregate-lbs-users.pdf, id=77, 416.21559pt x 319.64368pt>
 File: ../output/aggregate-lbs-users.pdf Graphic file (type pdf)
 <use ../output/aggregate-lbs-users.pdf>
-Package pdftex.def Info: ../output/aggregate-lbs-users.pdf  used on input line 68.
+Package pdftex.def Info: ../output/aggregate-lbs-users.pdf  used on input line 119.
 (pdftex.def)             Requested size: 339.72592pt x 260.91455pt.
-<../output/as-stat.pdf, id=14, 415.83919pt x 308.90042pt>
+<../output/as-stat.pdf, id=78, 415.83919pt x 308.90042pt>
 File: ../output/as-stat.pdf Graphic file (type pdf)
 <use ../output/as-stat.pdf>
-Package pdftex.def Info: ../output/as-stat.pdf  used on input line 74.
+Package pdftex.def Info: ../output/as-stat.pdf  used on input line 125.
 (pdftex.def)             Requested size: 339.72592pt x 252.37614pt.
-<../output/ips-v4.pdf, id=15, 428.75934pt x 308.90042pt>
+<../output/ips-v4.pdf, id=79, 428.75934pt x 308.90042pt>
 File: ../output/ips-v4.pdf Graphic file (type pdf)
 <use ../output/ips-v4.pdf>
-Package pdftex.def Info: ../output/ips-v4.pdf  used on input line 92.
+Package pdftex.def Info: ../output/ips-v4.pdf  used on input line 143.
 (pdftex.def)             Requested size: 339.72592pt x 244.75923pt.
-<../output/48s-v6.pdf, id=16, 428.75934pt x 308.90042pt>
+<../output/48s-v6.pdf, id=80, 428.75934pt x 308.90042pt>
 File: ../output/48s-v6.pdf Graphic file (type pdf)
 <use ../output/48s-v6.pdf>
-Package pdftex.def Info: ../output/48s-v6.pdf  used on input line 98.
+Package pdftex.def Info: ../output/48s-v6.pdf  used on input line 149.
 (pdftex.def)             Requested size: 339.72592pt x 244.75923pt.
-<../output/lir.pdf, id=17, 415.93329pt x 308.90042pt>
+<../output/lir.pdf, id=81, 415.93329pt x 308.90042pt>
 File: ../output/lir.pdf Graphic file (type pdf)
 <use ../output/lir.pdf>
-Package pdftex.def Info: ../output/lir.pdf  used on input line 104.
+Package pdftex.def Info: ../output/lir.pdf  used on input line 155.
 (pdftex.def)             Requested size: 339.72592pt x 252.31487pt.
-<../output/prefix-v4.pdf, id=18, 428.37038pt x 308.90042pt>
+<../output/prefix-v4.pdf, id=82, 428.37038pt x 308.90042pt>
 File: ../output/prefix-v4.pdf Graphic file (type pdf)
 <use ../output/prefix-v4.pdf>
-Package pdftex.def Info: ../output/prefix-v4.pdf  used on input line 111.
+Package pdftex.def Info: ../output/prefix-v4.pdf  used on input line 162.
 (pdftex.def)             Requested size: 203.83417pt x 146.98845pt.
 LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 111.
-<../output/prefix-v6.pdf, id=19, 416.07443pt x 308.90042pt>
+(Font)              scaled to size 8.54997pt on input line 162.
+<../output/prefix-v6.pdf, id=83, 416.07443pt x 308.90042pt>
 File: ../output/prefix-v6.pdf Graphic file (type pdf)
 <use ../output/prefix-v6.pdf>
-Package pdftex.def Info: ../output/prefix-v6.pdf  used on input line 113.
+Package pdftex.def Info: ../output/prefix-v6.pdf  used on input line 164.
 (pdftex.def)             Requested size: 203.83417pt x 151.32953pt.
- [1] [2 </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/internet-users.pdf> </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/population-internet-lbn.pdf
+ [3 </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/internet-users.pdf> </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/population-internet-lbn.pdf
 
 pdfTeX warning: pdflatex (file /Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/population-internet-lbn.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [3 </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/aggregate-lbs-users.pdf> </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/as-stat.pdf
+>] [4 </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/aggregate-lbs-users.pdf> </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/as-stat.pdf
 
 pdfTeX warning: pdflatex (file /Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/as-stat.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [4 </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/ips-v4.pdf> </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/48s-v6.pdf
+>] [5 </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/ips-v4.pdf> </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/48s-v6.pdf
 
 pdfTeX warning: pdflatex (file /Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/48s-v6.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [5 </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/lir.pdf> </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/prefix-v4.pdf
+>] [6 </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/lir.pdf> </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/prefix-v4.pdf
 
 pdfTeX warning: pdflatex (file /Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/prefix-v4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > </Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/prefix-v6.pdf
@@ -320,18 +558,18 @@ pdfTeX warning: pdflatex (file /Users/simurgh/Documents/CIMTI-IRISA/Simulations/
 pdfTeX warning: pdflatex (file /Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/../output/prefix-v6.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >] (/Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/lebanon-country-report.aux) ) 
 Here is how much of TeX's memory you used:
- 4311 strings out of 480608
- 68431 string characters out of 5903630
- 313885 words of memory out of 5000000
- 20158 multiletter control sequences out of 15000+600000
- 541173 words of font info for 48 fonts, out of 8000000 for 9000
+ 17322 strings out of 480608
+ 354010 string characters out of 5903630
+ 556851 words of memory out of 5000000
+ 32932 multiletter control sequences out of 15000+600000
+ 544267 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,11n,84p,616b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/opensans/a_p2vepx.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb>
-Output written on /Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/lebanon-country-report.pdf (7 pages, 159905 bytes).
+ 59i,12n,84p,1391b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/opensans/a_p2vepx.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb>
+Output written on /Users/simurgh/Documents/CIMTI-IRISA/Simulations/Internet-Graph/lebanon-internet-report/report/lebanon-country-report.pdf (8 pages, 177789 bytes).
 PDF statistics:
- 452 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 513 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
